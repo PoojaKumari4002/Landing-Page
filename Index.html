@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navBar{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+}
+.icons{
+    font-size: 1.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBar a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.navBar a:hover{
+    color: black;
+}
+.request a{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.navBar2{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBar2 a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navBar2 a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(234, 221, 48);
+}
+.options {
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.option{
+    padding: 5px;
+}
+.searchBar:hover{
+    background-color: black;
+    color: white;
+}
+.imgContainer{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url("OfficeIMage.jpg");
+    display: flex;
+}
+.mainImage{
+    width: 100%;
+}
+.TextContainer{
+    padding-left: 100px;
+    text-align: left;
+}
+.ImgText{
+    background-color: white;
+    line-height: 1.5;
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+.ImgText h1{
+    font-size:2.5rem;
+    color: grey;
+}
+.ImgText h3{
+    color: grey;
+}
+.Box{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ImgText p{
+    color: rgb(56, 54, 54);
+}
+.ReadBox{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px;
+    background-image:  linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+    border-radius: 10px;
+    width: 120px;   
+}
+.requestBox{
+    font-weight: 600;
+    text-decoration: none;
+    background-image:  linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+    border-radius: 10px;
+    padding: 8px;
+}
+.container2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.class{
+    color: white;
+    margin-left: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#headicon{
+    padding:7px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+.box1{
+    margin:5px;
+}
+.container2 p{
+    color: white;
+     line-height: 1.3;
+}
+.container3{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.TextBox p{
+    margin-top:10px;
+    margin-bottom:20px;
+
+}
+.empty{
+    background-image: linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+    width: 150px;
+    height: 2px;
+}
+.container4{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container4 h2{
+    margin-top: 10px;
+}
+.bottonBox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imageBox{
+    gap:1rem;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 300px;
+}
+.bottomtxt{
+   margin: 10px;
+   top: 150%;
+   background-color: white;
+   padding: 10px;
+   background-image: linear-gradient(62deg, #e283d4 30%, #f9a3ca 53%, #a8a2e0 66%, #b39adb 80%);
+   /* border-radius: 20px; */
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   color: white;
+}
+.ImageText{
+    margin-top: -20px;
+    padding-left: 58px;
+    padding-right: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 30%;
+}
+#bottomIcons{
+    font-size: 1.5rem;
+    margin: 5px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <div class="icons">
+                <a href="link.html"><i class="fa-brands fa-github"></i></a>
+                <a href="link.html"><i class="fa-brands fa-facebook"></i></a>
+                <a href="link.html"><i class="fa-brands fa-twitter"></i></a>
+                <a href="link.html"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="link.html"><i class="fa-brands fa-instagram"></i></a>
+                <a href="link.html"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="contact">
+                <a href="link.html"><i class="fa-solid fa-phone"></i> 123-456-789 </a>
+                <span style="color: white;"> | </span>
+                <a href="link.html"><i class="fa-solid fa-envelope"></i> abc@gmail.com</a>
+            </div>
+            <div class="request">
+                <a href="link.html">REGISTER & LOGIN</a></div>
+        </div>
+        <div class="navBar2">
+            <h3><i class="fa-solid fa-pen-to-square"></i> LANDING PAGE</h3>
+            <div class="options">
+                <a href="link.html" class="option">Name</a>
+                <a href="link.html" class="option">Blog</a>
+                <a href="link.html" class="option">Page</a>
+                <a href="link.html" class="option">Services</a>
+                <a href="link.html" class="option">Transmission</a>
+                <a href="link.html" class="option">Contact</a>
+                <a href="link.html" class="option">buy Now</a>
+            </div>
+            <div class="searchBar">
+                <a href="" class="option"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="imgContainer">
+            <div class="TextContainer">
+            <div class="ImgText">
+            <h3>WE ARE CREATIVE</h3>
+            <h1>CREATIVE DIGITAL AGENCY</h1>
+            <p> Traditional Digital Agencies one of the most definitive aspects of Creative Agencies.</p>
+            <div class="Box">
+            <a href="link.html" class="ReadBox">READ MORE</a>
+            <a href="link.html" class="requestBox">REQUEST & CONSULTANT</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="container2">
+            <div class="box1">
+                <i id="headicon" class="fa-solid fa-rocket"></i><span class="class">LAUNCH BUSINESS</span>
+                <P>Chase the vision not the money; the money will end up following you</P>
+            </div>
+            <div class="box1">
+                <i id="headicon" class="fa-solid fa-headphones"></i><span class="class">ONLINE SUPPORT SYSTEM</span>
+                <p>Your most unhappy customers are your greatest source of learning.</p>
+            </div>
+            <div class="box1">
+                <i id="headicon" class="fa-solid fa-bullseye"></i><span class="class">TIME MANAGEMENT</span>
+                <p>The key is in not spending time, but in investing it.</p>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="TextBox">
+            <h2>ABOUT US</h2>
+            <p class="empty">     </p>
+            <h4>15 years, we passionate about achieving better results for out clients</h4>
+            <p>Welcome to our vibrant digital haven! We are the architects of digital dreams, a trailblazing creative digital agency dedicated to crafting immersive online experiences. At the intersection of innovation and imagination, we redefine digital landscapes, bringing ideas to life with pixel-perfect precision. Our team of visionaries, designers, and developers collaborates seamlessly to weave captivating narratives through cutting-edge technology. Rooted in creativity and driven by results, we navigate the ever-evolving digital realm, shaping brands and leaving an indelible mark on the digital canvas. Welcome to innovation personified!</p>
+            <a href="link.html" class="ReadBox">READ MORE</a>
+        </div>
+            <div class="imgBox">
+                <img src="ManImage.jpg" alt="">
+            </div>
+        </div>
+        <div class="container4">
+            <h2>OUR SERVICES</h2>
+            <p class="empty"></p>
+            <div class="bottonBox">
+            <div class="imageBox">
+            <img class="image" src="handshake.jpg" alt="">
+            <img class="image" src="girlimage.jpg" alt="">
+           </div>
+            <div class="ImageText">
+                <h3 class="bottomtxt"><i id="bottomIcons" class="fa-solid fa-bullhorn"></i>USER EXPERIENCE</h3>
+                <h3 class="bottomtxt"><i id="bottomIcons" class="fa-regular fa-object-group"></i>CREATIVE DESIGN</h3>
+                <h3 class="bottomtxt"><i id="bottomIcons" class="fa-solid fa-dollar-sign"></i>DEVELOPMENT</h3>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+    </main>
+    <script src="https://kit.fontawesome.com/4cc7257a1c.js" crossorigin="anonymous"></script>
+</body>
+</html>
